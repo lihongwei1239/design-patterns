@@ -6,7 +6,11 @@
 
     <groupId>com.java.designpatterns</groupId>
     <artifactId>design-patterns</artifactId>
+    <packaging>pom</packaging>
     <version>1.0-SNAPSHOT</version>
+    <modules>
+        <module>factory-pattern-demo</module>
+    </modules>
 
     <parent>
         <groupId>org.springframework.boot</groupId>
